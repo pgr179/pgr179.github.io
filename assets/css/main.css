@@ -1551,6 +1551,20 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+			.container {
+				display: flex;
+			}
+
+			#col-1 {
+				background-color: yellow;
+  				flex: 1;
+			}
+
+			#col-2 {
+ 				background-color: orange;
+				flex: 1;
+			}
+
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
