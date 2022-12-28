@@ -1556,13 +1556,15 @@ input, select, textarea {
 			}
 
 			#col-1 {
-				background-color: yellow;
+				background-color: rgba(27, 31, 34, 0.85);
   				flex: 1;
+				padding: 1rem 1rem 1rem 1rem;
 			}
 
 			#col-2 {
- 				background-color: orange;
+ 				background-color: rgba(27, 31, 34, 0.85);
 				flex: 1;
+				padding: 1rem 1rem 1rem 1rem;
 			}
 
 			#main article.active {
