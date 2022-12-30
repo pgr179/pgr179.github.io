@@ -172,10 +172,6 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
-		
-		.nospace {
-			margin: 0 0 0 0:
-		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1570,8 +1566,9 @@ input, select, textarea {
 			}
 
 			.hangingindent {
-				padding-left: 22px ;
-				text-indent: -22px ;
+				padding-left: 22px;
+				text-indent: -22px;
+				margin: 0 0 0 0;
 			}
 
 			#main article.active {
