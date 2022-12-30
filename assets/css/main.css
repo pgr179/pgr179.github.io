@@ -172,6 +172,10 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		
+		.nospace {
+			margin: 0 0 0 0:
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1556,13 +1560,11 @@ input, select, textarea {
 			}
 
 			#col-1 {
-				background-color: rgba(27, 31, 34, 0.85);
   				flex: 1;
 				padding: 1rem 1rem 1rem 0rem;
 			}
 
 			#col-2 {
- 				background-color: rgba(27, 31, 34, 0.85);
 				flex: 1;
 				padding: 1rem 0rem 1rem 1rem;
 			}
