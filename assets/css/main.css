@@ -1567,6 +1567,11 @@ input, select, textarea {
 				padding: 1rem 0rem 1rem 1rem;
 			}
 
+			.hangingindent {
+				padding-left: 22px ;
+				text-indent: -22px ;
+			}
+
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
